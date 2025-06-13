@@ -42,9 +42,10 @@ This repository contains the code, data, and analysis for a user study on mid-ai
 Install dependencies with Poetry or Conda:
 
 ```bash
-conda env create --file=environment.yml
+conda update conda
+conda env create --file=./environment.yml
 conda activate interact2025
-poetry install
+poetry install --no-root
 ```
 
 ## Usage
